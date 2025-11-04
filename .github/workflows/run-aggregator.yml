@@ -3,6 +3,9 @@ name: Run RSS Aggregator
 on:
   workflow_dispatch: {}  # manual run for now; we'll add daily schedule later
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest

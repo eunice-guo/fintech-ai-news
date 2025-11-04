@@ -1,0 +1,47 @@
+# Curated starter feeds focused on fintech + AI tools
+# You can add/remove anytime.
+
+nitter_base: "https://nitter.net"  # fallback mirrors to try if this one is down:
+nitter_mirrors:
+  - "https://nitter.net"
+  - "https://nitter.poast.org"
+  - "https://nitter.fdn.fr"
+
+categories:
+  substack:
+    - name: "Fintech Brain Food (Simon Taylor)"
+      url: "https://fintechbrainfood.substack.com/feed"
+    - name: "Bankless"
+      url: "https://bankless.substack.com/feed"
+    - name: "The Diff (Byrne Hobart)"
+      url: "https://www.thediff.co/feed"
+    - name: "Ben's Bites (AI)"
+      url: "https://www.bensbites.co/feed"
+    - name: "Lex Sokolin — Fintech Blueprint"
+      url: "https://lex.substack.com/feed"
+
+  fintech_news:
+    - name: "Finextra"
+      url: "https://www.finextra.com/rss/news.aspx"
+    - name: "The Paypers"
+      url: "https://thepaypers.com/rss"
+    - name: "PYMNTS"
+      url: "https://www.pymnts.com/feed/"
+    - name: "The Block (Crypto/Fintech)"
+      url: "https://www.theblock.co/rss.xml"
+    - name: "a16z Blog (Fintech/AI sometimes)"
+      url: "https://a16z.com/feed/"
+
+  twitter_accounts:  # via Nitter RSS (no API keys)
+    - handle: "QuantConnect"
+      note: "Quant platform; strategy tooling"
+    - handle: "AlpacaHQ"
+      note: "Broker API; algo-trading news"
+    - handle: "OpenBBFinance"
+      note: "Open-source investment research"
+    - handle: "numerai"
+      note: "Crowdsourced ML hedge fund"
+    - handle: "fintechfrank"
+      note: "Fintech news/commentary"
+    - handle: "ARKInvest"
+      note: "Tech/AI investing"
